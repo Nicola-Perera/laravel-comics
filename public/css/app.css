@@ -11251,6 +11251,7 @@ textarea.form-control-lg {
 
 :root {
   --bg-blue: #0282F9;
+  --bg-dark-gray: #1c1c1c ;
 }
 
 .width70 {
@@ -11302,15 +11303,37 @@ header .bottom_header .width70 .search a {
   font-size: 0.8rem;
 }
 
-main .hero img {
+main .main_content {
+  background-color: var(--bg-dark-gray);
+  padding-bottom: 2rem;
+}
+main .main_content .hero img {
   width: 100%;
 }
-main .comics {
+main .main_content .comics {
   flex-wrap: wrap;
 }
-main .comics .comic {
+main .main_content .comics .comic {
+  padding-top: 2rem;
   width: 16.6666666667%;
 }
-main .comics .comic .poster img {
+main .main_content .comics .comic .poster img {
   width: 100%;
+}
+main .main_content .comics .comic h3 {
+  padding-top: 1rem;
+  color: white;
+  font-size: 0.8rem;
+}
+main .main_content .more {
+  width: 15%;
+  margin: auto;
+  background-color: var(--bg-blue);
+  margin-top: 2rem;
+}
+main .main_content .more h2 {
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+  vertical-align: middle;
 }

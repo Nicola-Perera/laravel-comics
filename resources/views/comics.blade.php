@@ -1,11 +1,13 @@
 @extends('layouts.app');
 
 @section('content')
-    <div class="comics container">
+<div class="main_content">
 
+    <div class="comics container">
+        
         @foreach($comicsData as $index => $comic)
         
-        <div class="comic px-1">
+        <div class="comic px-3">
             <!-- poster -->
             <a href="">
                 <div class="poster">
@@ -19,4 +21,10 @@
         
         @endforeach
     </div>
+
+    <!-- more -->
+    <div class="more py-2">
+        <h2>LOAD MORE</h2>
+    </div>
+</div>
 @endsection
