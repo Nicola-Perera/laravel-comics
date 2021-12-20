@@ -11302,10 +11302,15 @@ header .bottom_header .width70 .search a {
   font-size: 0.8rem;
 }
 
-main .hero {
-  background-image: url("../img/images/jumbotron.jpg");
-  background-size: contain;
-}
 main .hero img {
+  width: 100%;
+}
+main .comics {
+  flex-wrap: wrap;
+}
+main .comics .comic {
+  width: 16.6666666667%;
+}
+main .comics .comic .poster img {
   width: 100%;
 }

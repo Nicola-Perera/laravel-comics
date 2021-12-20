@@ -21,8 +21,10 @@
 
         <!-- hero image -->
         <div class="hero">
-            <!-- <img src="../../img/images/jumbotron.jpg" alt=""> -->
+            <img src="../../img/images/jumbotron.jpg" alt="">
         </div>
+
+        <!-- comics -->
         @yield('content')
     </main>
 
