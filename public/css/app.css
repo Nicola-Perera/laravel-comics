@@ -11274,3 +11274,30 @@ header .top_header h3 {
 header .top_header .container {
   justify-content: end;
 }
+header .bottom_header .width70 {
+  align-items: center;
+  justify-content: space-between;
+}
+header .bottom_header .width70 .logo {
+  width: 10%;
+}
+header .bottom_header .width70 .logo img {
+  width: 80%;
+}
+header .bottom_header .width70 .nav {
+  width: 80%;
+  justify-content: center;
+}
+header .bottom_header .width70 .nav .link {
+  margin-left: 0.6rem;
+}
+header .bottom_header .width70 .nav .link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+header .bottom_header .width70 .search a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}

@@ -36,6 +36,37 @@ header {
             justify-content: end;
         }
     }
+    .bottom_header {
+        .width70 {
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                width: 10%;
+                img {
+                    width: 80%;
+                }
+            }
+            .nav {
+                width: 80%;
+                justify-content: center;
+                .link {
+                    margin-left: .6rem;
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        font-size: .8rem;
+                    }
+                }
+            }
+            .search {
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
 }
 
 // main
