@@ -11301,3 +11301,11 @@ header .bottom_header .width70 .search a {
   color: #000;
   font-size: 0.8rem;
 }
+
+main .hero {
+  background-image: url("../img/images/jumbotron.jpg");
+  background-size: contain;
+}
+main .hero img {
+  width: 100%;
+}

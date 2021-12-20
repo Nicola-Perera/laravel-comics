@@ -17,7 +17,12 @@
     @include('partials.header')
 
     <!-- main -->
-    <main id="site_main" class="py-5">
+    <main>
+
+        <!-- hero image -->
+        <div class="hero">
+            <!-- <img src="../../img/images/jumbotron.jpg" alt=""> -->
+        </div>
         @yield('content')
     </main>
 

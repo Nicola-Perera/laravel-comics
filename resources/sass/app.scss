@@ -70,5 +70,16 @@ header {
 }
 
 // main
+main {
+    .hero {
+        background-image: url('../img/images/jumbotron.jpg');
+        background-size: contain;
+        img {
+            width: 100%;
+            // height: 100%;
+            // background-image: url('../img/images/jumbotron.jpg');
+        }
+    }
+}
 
 // footer
