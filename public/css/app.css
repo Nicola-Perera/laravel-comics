@@ -11253,6 +11253,24 @@ textarea.form-control-lg {
   --bg-blue: #0282F9;
 }
 
+.width70 {
+  width: 70%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+}
+
 header .top_header {
   background-color: var(--bg-blue);
+  color: white;
+}
+header .top_header h3 {
+  font-size: 0.8rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+header .top_header .container {
+  justify-content: end;
 }

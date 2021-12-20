@@ -13,12 +13,28 @@
 }
 
 // common rules
+.width70 {
+    width: 70%;
+    margin: auto;
+}
+.container {
+    display: flex;
+}
 
 
 // header
 header {
     .top_header {
         background-color: var(--bg-blue);
+        color: white;
+        h3 {
+            font-size: .8rem;
+            margin-left: 2rem;
+            align-items: center;
+        }
+        .container {
+            justify-content: end;
+        }
     }
 }
 
