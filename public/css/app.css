@@ -11290,7 +11290,10 @@ header .bottom_header .width70 .nav {
   justify-content: center;
 }
 header .bottom_header .width70 .nav .link {
-  margin-left: 0.6rem;
+  margin-left: 1rem;
+}
+header .bottom_header .width70 .nav .link:hover {
+  border-bottom: 3px solid var(--bg-blue);
 }
 header .bottom_header .width70 .nav .link a {
   text-decoration: none;

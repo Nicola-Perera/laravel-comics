@@ -27,4 +27,7 @@
         <h2>LOAD MORE</h2>
     </div>
 </div>
+<div class="info container">
+    
+</div>
 @endsection
