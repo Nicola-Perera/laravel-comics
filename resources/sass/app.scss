@@ -1,1 +1,27 @@
-//
+@use 'bootstrap';
+
+// rest rules
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// color palette
+:root {
+    --bg-blue: #0282F9;
+}
+
+// common rules
+
+
+// header
+header {
+    .top_header {
+        background-color: var(--bg-blue);
+    }
+}
+
+// main
+
+// footer
